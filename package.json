@@ -1,0 +1,17 @@
+{
+  "name": "friends-word-frequency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate a static HTML page with word frequencies for Friends Season 3 (excluding names)",
+  "main": "analyze.js",
+  "scripts": {
+    "analyze": "node analyze.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "wink-lemmatizer": "^3.0.4"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
